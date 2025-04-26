@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Airflow logs and files
+logs/
+*.log
+
+# Environment
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings (если пользуешься)
+.vscode/
+
+# Docker stuff
+**/data/
+data/*.csv
